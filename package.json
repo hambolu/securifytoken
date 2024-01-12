@@ -1,0 +1,36 @@
+{
+  "name": "securifytoken",
+  "version": "1.0.0",
+  "description": "A highly secure Web Token (WT) library with customizable encryption and decoding.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": ["security", "encryption", "decoding"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hambolu/securifytoken.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hambolu/securifytoken/issues"
+  },
+  "homepage": "https://github.com/hambolu/securifytoken#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  
+  "peerDependencies": {},
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
