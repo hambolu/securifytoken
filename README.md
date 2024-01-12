@@ -8,7 +8,9 @@ Install the library using npm:
 
 ```bash
 npm install securifytoken
-
+```
+### Usage
+```bash
 const securifyToken = require('securifytoken');
 
 // Example payload
@@ -33,9 +35,8 @@ if (isTokenValid) {
 } else {
   console.log('Token verification failed.');
 }
-```bash
-
-API
+```
+### API
 encode(payload, secretKey, options)
 
 Generates a secure token based on the payload and secret key.
@@ -64,4 +65,3 @@ Verifies the authenticity of a token using the provided secret key.
 Returns: true if the token is valid, false otherwise.
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
