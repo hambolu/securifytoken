@@ -33,7 +33,7 @@ if (isTokenValid) {
 } else {
   console.log('Token verification failed.');
 }
-
+```bash
 
 API
 encode(payload, secretKey, options)
