@@ -1,6 +1,6 @@
 # SecurifyToken
 
-SecurifyToken is a Node.js library for generating and verifying secure JSON Web Tokens (JWTs) with customizable encryption and decoding. It uses the AES-256-CTR encryption algorithm to provide a high level of security.
+SecurifyToken is a Node.js library for generating and verifying secure Web Tokens (WTs) with customizable encryption and decoding. It uses the AES-256-CTR encryption algorithm to provide a high level of security.
 
 ## Installation
 
